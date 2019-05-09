@@ -10,6 +10,7 @@ Framework de diseño usado:
 https://material.io/develop/web/
 
 Imagenes de la aplicacion:
-
+![Image app1](https://github.com/julioortizpol/ManejoDeImpresoras/blob/master/gitappimage/imgaplicacion.PNG)
+![Image app2](https://github.com/julioortizpol/ManejoDeImpresoras/blob/master/gitappimage/imgaplicacion2%20(2).png)
 
 
