@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="bundle.css">
+		<link rel="stylesheet" href="bundle.css">
+    <link rel="stylesheet" href="styles.css">		
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
 	<body>
   	<!--Drawer-->
   	<aside class="mdc-drawer mdc-drawer--open mdc-elevation--z4">
-  		<div class="mdc-drawer__header">
+  		<a style = "cursor: pointer;" onclick="contentchange(0);" class="mdc-drawer__header">
     		<h3 class="mdc-drawer__title">Impresoras RICOH</h3>
     		<h6 class="mdc-drawer__subtitle">By CDEEE mesa de ayuda</h6>
-  		</div>
+			</a>
   		<div class="mdc-drawer__content">
     		<nav class="mdc-list">
       			<a id = "PP" class="drawerlistthis mdc-list-item" href="#" aria-selected="true">
@@ -72,28 +73,28 @@
   			<div class="mdc-layout-grid__inner">
     			<div class="mdc-layout-grid__cell">
     				<div id = "CPP" class="my-card my-card_prin mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0">
- 	 					<div style = "background-image: url('piso1.png');"class="my-card__media mdc-card__media mdc-card__media--16-9">
+ 	 					<div style = "background-image: url('/img/piso1.png');"class="my-card__media mdc-card__media mdc-card__media--16-9">
 						</div>
 						<h2 class="h2card">Primer Piso</h2>
 					</div>
     			</div>
     			<div class="mdc-layout-grid__cell">
     				<div id = "CSP" class="my-card my-card_prin mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0">
- 	 					<div style = "background-image: url('piso2.png');"class="my-card__media mdc-card__media mdc-card__media--16-9">
+ 	 					<div style = "background-image: url('/img/piso2.png');"class="my-card__media mdc-card__media mdc-card__media--16-9">
 						</div>
 						<h2 class="h2card">Segundo Piso</h2>
 					</div>
     			</div>
     			<div class="mdc-layout-grid__cell">
     				<div id = "CTP" class="my-card my-card_prin mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0">
- 	 					<div style = "background-image: url('piso3.png');"class="my-card__media mdc-card__media mdc-card__media--16-9">
+ 	 					<div style = "background-image: url('/img/piso3.png');"class="my-card__media mdc-card__media mdc-card__media--16-9">
 						</div>
 						<h2 class="h2card">Tercer Piso</h2>
 					</div>
     			</div>
     			<div class="mdc-layout-grid__cell">
     				<div id = "CCP" class="my-card my-card_prin mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0">
- 	 					<div style = "background-image: url('piso4.png');"class="my-card__media mdc-card__media mdc-card__media--16-9">
+ 	 					<div style = "background-image: url('/img/piso4.png');"class="my-card__media mdc-card__media mdc-card__media--16-9">
 						</div>
 						<h2 class="h2card">Cuarto Piso</h2>
 					</div>
@@ -102,28 +103,28 @@
   			<div style = "margin-top: 50px;"class="mdc-layout-grid__inner">
     			<div class="mdc-layout-grid__cell">
     				<div id = "CQP" class="my-card my-card_prin mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0">
- 	 					<div style = "background-image: url('piso5.png');"class="my-card__media mdc-card__media mdc-card__media--16-9">
+ 	 					<div style = "background-image: url('/img/piso5.png');"class="my-card__media mdc-card__media mdc-card__media--16-9">
 						</div>
 						<h2 class="h2card">Quinto Piso</h2>
 					</div>
     			</div>
     			<div class="mdc-layout-grid__cell">
     				<div id = "CSEP"class="my-card my-card_prin mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0">
- 	 					<div style = "background-image: url('piso6.png');"class="my-card__media mdc-card__media mdc-card__media--16-9">
+ 	 					<div style = "background-image: url('/img/piso6.png');"class="my-card__media mdc-card__media mdc-card__media--16-9">
 						</div>
 						<h2 class="h2card">Sexto Piso</h2>
 					</div>
     			</div>
     			<div class="mdc-layout-grid__cell">
     				<div id = "CPC"class="my-card my-card_prin mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0">
- 	 					<div style = "background-image: url('punta.png');"class="my-card__media mdc-card__media mdc-card__media--16-9">
+ 	 					<div style = "background-image: url('/img/punta.png');"class="my-card__media mdc-card__media mdc-card__media--16-9">
 						</div>
 						<h2 class="h2card">Punta Catalina</h2>
 					</div>
     			</div>
     			<div class="mdc-layout-grid__cell">
     				<div id = "CCOH"class="my-card my-card_prin mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0">
- 	 					<div style = "background-image: url('piso1.png');"class="my-card__media mdc-card__media mdc-card__media--16-9">
+ 	 					<div style = "background-image: url('/img/piso1.png');"class="my-card__media mdc-card__media mdc-card__media--16-9">
 						</div>
 						<h2 class="h2card">COH</h2>
 					</div>
@@ -132,32 +133,32 @@
     			<!--END Principal menu-->
 
     		<!--Primera planta-->
-    		<section id="PrimeraPlanta" class="contentcontrol element-notshow">
+    		<section class="contentcontrol element-notshow">
   			<div class="mdc-layout-grid__inner">
     			<div class="mdc-layout-grid__cell">
-    				<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="http:\\172.29.16.60" target="blank">
- 	 					<div style = "background-image: url('primer_planta.png');"class="my-card__media mdc-card__media mdc-card__media--16-9">
+    				<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href=".60" target="blank">
+ 	 					<div class="my-card__media mdc-card__media mdc-card__media--16-9">
 						</div>
 						<h2 class="h2card">Correspondencia</h2>
 					</a>
     			</div>
     			<div class="mdc-layout-grid__cell">
     				<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="http://172.29.16.61/" target="blank">
- 	 					<div style = "background-image: url('primer_planta.png');"class="my-card__media mdc-card__media mdc-card__media--16-9">
+ 	 					<div class="my-card__media mdc-card__media mdc-card__media--16-9">
 						</div>
 						<h2 class="h2card">Comunicacion estrategica</h2>
 					</a>
     			</div>
     			<div class="mdc-layout-grid__cell">
     				<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="http://172.29.16.62/" target="blank">
- 	 					<div style = "background-image: url('primer_planta.png');"class="my-card__media mdc-card__media mdc-card__media--16-9">
+ 	 					<div class="my-card__media mdc-card__media mdc-card__media--16-9">
 						</div>
 						<h2 class="h2card">Acceso a la informacion</h2>
 					</a>
     			</div>
     			<div class="mdc-layout-grid__cell">
     				<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="http://172.29.16.63/" target="blank">
- 	 					<div style = "background-image: url('primer_planta.png');"class="my-card__media mdc-card__media mdc-card__media--16-9">
+ 	 					<div class="my-card__media mdc-card__media mdc-card__media--16-9">
 						</div>
 						<h2 class="h2card">Gestion humana</h2>
 					</a>
@@ -165,121 +166,331 @@
   			</div>
   			<div style = "margin-top: 50px;"class="mdc-layout-grid__inner">
     			<div class="mdc-layout-grid__cell">
-    				<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="http:\\172.29.16.64" target="blank">
- 	 					<div style = "background-image: url('primer_planta.png');"class="my-card__media mdc-card__media mdc-card__media--16-9">
+    				<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="" target="blank">
+ 	 					<div class="my-card__media mdc-card__media mdc-card__media--16-9">
 						</div>
 						<h2 class="h2card">Nomina</h2>
 					</a>
     			</div>
     			<div class="mdc-layout-grid__cell">
-    				<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="http:\\172.29.16.65" target="blank">
- 	 					<div style = "background-image: url('primer_planta.png');"class="my-card__media mdc-card__media mdc-card__media--16-9">
+    				<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="" target="blank">
+ 	 					<div class="my-card__media mdc-card__media mdc-card__media--16-9">
 						</div>
 						<h2 class="h2card">Cooperativa</h2>
 					</a>
     			</div>
     			<div class="mdc-layout-grid__cell">
-    				<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="http:\\172.29.16.66" target="blank">
- 	 					<div style = "background-image: url('primer_planta.png');"class="my-card__media mdc-card__media mdc-card__media--16-9">
+    				<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="" target="blank">
+ 	 					<div class="my-card__media mdc-card__media mdc-card__media--16-9">
 						</div>
 						<h2 class="h2card">Cooperativa color</h2>
 					</a>
     			</div>
     			<div class="mdc-layout-grid__cell">
-    				<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="http:\\172.29.16.68" target="blank">
- 	 					<div style = "background-image: url('primer_planta.png');"class="my-card__media mdc-card__media mdc-card__media--16-9">
+    				<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="" target="blank">
+ 	 					<div class="my-card__media mdc-card__media mdc-card__media--16-9">
 						</div>
 						<h2 class="h2card">Servicios Generales</h2>
 					</a>
-    			</div>
+					</div>
+  			</div>
     			</section>
 				<!--END Primera planta-->
+				<!--Segunda planta-->
+				<section class="contentcontrol element-notshow">
+					<div class="mdc-layout-grid__inner">
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="http://172.29.16.70/" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Archivo Central</h2>
+						</a>
+						</div>
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="http://172.29.16.80/" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Compras</h2>
+						</a>
+						</div>
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="http://172.29.16.89/" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Direccion Administrativa</h2>
+						</a>
+						</div>
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="http://172.29.16.82/" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Gestion de Proyectos</h2>
+						</a>
+						</div>
+					</div>
+					<div style = "margin-top: 50px;"class="mdc-layout-grid__inner">
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="http://172.29.16.83/" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Tesoreria</h2>
+						</a>
+						</div>
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="http://172.29.16.84/" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Caja</h2>
+						</a>
+						</div>
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="http://172.29.16.85/" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Financiera</h2>
+						</a>
+						</div>
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="http://172.29.16.86/" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Financiera(color)</h2>
+						</a>
+						</div>
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="http://172.29.16.87/" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Tecnologia</h2>
+						</a>
+						</div>
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="http://172.29.16.88/" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Supervisoria General</h2>
+						</a>
+						</div>
+					</div>
+						</section>
+				<!--END Segunda planta-->
+				<!--Tercer planta-->
+				<section class="contentcontrol element-notshow">
+					<div class="mdc-layout-grid__inner">
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Juridica 3er Piso</h2>
+						</a>
+						</div>
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Responsabilidad Social</h2>
+						</a>
+						</div>
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Auditoria Interna BN</h2>
+						</a>
+						</div>
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Auditoria Interna Color</h2>
+						</a>
+						</div>
+					</div>
+					<div style = "margin-top: 50px;"class="mdc-layout-grid__inner">
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">UEP</h2>
+						</a>
+						</div>
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Caja</h2>
+						</a>
+						</div>
+					</div>
+						</section>
+				<!--END Segunda planta-->
+				<!--Cuarta planta-->
+				<section class="contentcontrol element-notshow">
+					<div class="mdc-layout-grid__inner">
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Direccion Ejecutiva</h2>
+						</a>
+						</div>
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Aliniamiento Estrategico</h2>
+						</a>
+						</div>
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Gestion de Energia</h2>
+						</a>
+						</div>
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">UEPG</h2>
+						</a>
+						</div>
+					</div>
+					<div style = "margin-top: 50px;"class="mdc-layout-grid__inner">
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Direccion de Proyectos</h2>
+						</a>
+						</div>
+					</div>
+						</section>
+				<!--END cuarta planta-->
+				<!--Quinta planta-->
+				<section class="contentcontrol element-notshow">
+					<div class="mdc-layout-grid__inner">
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Direcctora Juridica</h2>
+						</a>
+						</div>
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Juridica 5to piso</h2>
+						</a>
+						</div>
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">VicePresidencia</h2>
+						</a>
+						</div>
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">VicePresidente</h2>
+						</a>
+						</div>
+					</div>
+					<div style = "margin-top: 50px;"class="mdc-layout-grid__inner">
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Secretaria General</h2>
+						</a>
+						</div>
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Directores</h2>
+						</a>
+						</div>
+					</div>
+						</section>
+				<!--END quinta planta-->
+				<!--Sexta planta-->
+				<section class="contentcontrol element-notshow">
+					<div class="mdc-layout-grid__inner">
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Contraloria Color</h2>
+						</a>
+						</div>
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Contraloria Analistas</h2>
+						</a>
+						</div>
+					</div>
+						</section>
+				<!--END sexta planta-->
+				<!--PuntaCatalina planta-->
+				<section class="contentcontrol element-notshow">
+					<div class="mdc-layout-grid__inner">
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="http:\\192.168.8.123" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Punta Catalina Montaje</h2>
+						</a>
+						</div>
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="http:\\192.168.8.124" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">Punta Catalina Administracion</h2>
+						</a>
+						</div>
+					</div>
+						</section>
+				<!--END PuntaCatalina planta-->
+				<!--COH-->
+				<section class="contentcontrol element-notshow">
+					<div class="mdc-layout-grid__inner">
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="http:\\192.168.3.69" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">COH Transportacion</h2>
+						</a>
+						</div>
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="http:\\192.168.3.70" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">ClubCDEEE</h2>
+						</a>
+						</div>
+						<div class="mdc-layout-grid__cell">
+							<a class="acard my-card mdc-card mdc-card__primary-action mdc-card--outlined mdc-elevation--z3" tabindex="0" href="http:\\192.168.3.180" target="blank">
+							<div class="my-card__media mdc-card__media mdc-card__media--16-9">
+							</div>
+							<h2 class="h2card">COH Seguridad Militar</h2>
+						</a>
+						</div>
+					</div>
+						</section>
+				<!--END COH-->
   			</div>
 		</div>
 	<!--END CONTENT-->
 
     </div>
   <!--END MAIN-->
-  <script type="text/javascript">
-  	//inicializacion de variables globales
-    	var elementCard = document.getElementsByClassName("my-card_prin");
-    	var elementDrawer = document.getElementsByClassName("drawerlistthis");
-    	var contentcontrolvar = document.getElementsByClassName("contentcontrol");
-    	var elementcardid = [];
-    //asignacion de click
-    	for (var i=0; i < elementCard.length; i++) {
-    		// Here we have the same onclick
-    		elementCard.item(i).onclick = prueba;
-		}
-		for (var i=0; i < elementDrawer.length; i++) {
-    		// Here we have the same onclick
-    		elementDrawer.item(i).onclick = drawerlistactive;
-		}
-		//funcuion para sombreado con click en tarjtas
-		function prueba(e){
-			var cardid = [];
-			console.log(e.path);
-			for (var i=0; i < e.path.length; i++) {
-			console.log(e.path[i].id);
-    		cardid[i] = e.path[i].id;
-			}
-			var cardid = arrayRemove(cardid, "");
-			var cardid = arrayRemove(cardid, undefined);
-			console.log(cardid);
-			for(var i = 0; i < elementCard.length; i++){
-				if(cardid[0] == elementCard[i].id){
-					drawerlistactive(elementDrawer[i].id);
-					contentchange((i+1));
-				}
-			}
-		}
-		//funcion sombreado con lcik en drawer
-    	function drawerlistactive(e) {
-			for (var i=0; i < elementDrawer.length; i++) {
-    		// Here we have the same onclick
-    		elementDrawer.item(i).classList.remove("mdc-list-item--activated");
-    		
-			}
-			var x = typeof e;
-			console.log(x);
-    		if(x == "object"){
-    			for (var i=0; i < elementDrawer.length; i++) {
-    				if(e.target.id == elementDrawer[i].id){
-						contentchange((i+1));
-					}
- 				}
-    			el = document.getElementById(e.target.id);
-    			el.classList.add("mdc-list-item--activated");
-    		}else{
-    			el = document.getElementById(e);
-    			el.classList.add("mdc-list-item--activated");
-    			for (var i=0; i < elementDrawer.length; i++) {
-    				if(e == elementDrawer[i].id){
-						contentchange((i+1));
-					}
- 				}
-    		}
-    	}
-
-    	function contentchange(e){
-    		for (var i=0; i < contentcontrolvar.length; i++) {
-    		// Here we have the same onclick
-    		contentcontrolvar.item(i).classList.add("element-notshow");
-			}
-			contentcontrolvar.item(e).classList.remove("element-notshow");
-			if(e == 0){
-				for (var i=0; i < elementDrawer.length; i++) {
-    				elementDrawer.item(i).classList.remove("mdc-list-item--activated");
-    		
-				}
-			}
-    	}
-    	function arrayRemove(arr, value) {
-
-   			return arr.filter(function(ele){
-       		return ele != value;
-   		});
-		}
-    </script>
+  
 </body>
+<script src="scripts.js"></script>
 </html>

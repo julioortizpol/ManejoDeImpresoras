@@ -1,0 +1,59 @@
+.mdc-top-app-bar {
+	background-color:#cc2a35;
+	position: absolute;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+}
+
+.mdc-drawer-app-content {
+  flex: auto;
+  overflow: auto;
+  position: relative;
+}
+
+#contenidopermanetbar{
+  margin-left: 0px;
+}
+
+.element-notshow{
+    overflow: hidden;
+    display: none;
+}
+
+.acard{
+  text-decoration: none;
+}
+
+.h2card{
+  color: #727473;
+  text-align: center;
+   margin: 0;
+}
+
+.my-card {
+    height: 155px;
+    width: 200px;
+  }
+  
+  .my-card__media {
+    margin-left: 50px;
+    height: 100px; 
+    width: 100px;
+    background-image: url('/img/impresoraicon.png');
+  }
+  
+  .mdc-layout-grid__cell {
+      width: auto;
+      grid-column-end: span 3;
+  }
+  
+  .mdc-card:hover{
+    border-color: #cc2a35;
+  }
+  .mdc-drawer .mdc-list-item--activated {
+    color: rgba(0, 0, 0, 0.87);
+}  

@@ -11,73 +11,18 @@ $mdc-theme-secondary: #727473;
 $mdc-theme-background: #fff;
 
 //css for make a permanent drawer
-.mdc-top-app-bar {
-	background-color:#cc2a35;
-	position: absolute;
-}
 
-body {
-  display: flex;
-  height: 100vh;
-  margin: 0;
-}
-
-.mdc-drawer-app-content {
-  flex: auto;
-  overflow: auto;
-  position: relative;
-}
-
-#contenidopermanetbar{
-  margin-left: 0px;
-}
-//END css for make a permanent drawer
-
-//Esconder un elemento
-.element-notshow{
-    overflow: hidden;
-    display: none;
-}
 
 //Clase para agrupar elementos del drawer
 .drawerlistthis{
   
 }
 
-//estilos card
 
-.acard{
-  text-decoration: none;
-}
-
-.h2card{
-  color: #727473;
-  text-align: center;
-   margin: 0;
-}
 .probea{
   
 }
 
-.my-card {
-  height: 155px;
-  width: 200px;
-}
-
-.my-card__media {
-  margin-left: 50px;
-  height: 100px; 
-  width: 100px;
-}
-
-.mdc-layout-grid__cell {
-    width: auto;
-    grid-column-end: span 3;
-}
-
-.mdc-card:hover{
-  border-color: #cc2a35;
-}
 
 //Icono appbar
 
@@ -88,9 +33,7 @@ body {
 
 //drawer in the list modifications
 
-.mdc-drawer .mdc-list-item--activated {
-    color: rgba(0, 0, 0, 0.87);
-}
+
 
 //the stay active color of drawer list
 :not(.mdc-list--non-interactive) > :not(.mdc-list-item--disabled).mdc-list-item--activated::before, :not(.mdc-list--non-interactive) > :not(.mdc-list-item--disabled).mdc-list-item--activated::after {
