@@ -9,8 +9,12 @@ Esta seria oficialmente mi primer "aplicacion WEB", con esta adquiri los conocim
 Framework de diseño usado:
 https://material.io/develop/web/
 
-Imagenes de la aplicacion:
+## Imagenes de la aplicacion:
+
+### Primera pantalla(Menu principal)
 ![Image app1](https://github.com/julioortizpol/ManejoDeImpresoras/blob/master/gitappimage/imgaplicacion.PNG)
+
+### Menu de primer piso(Accesible al hacer clcik en el menu principal donde dice primer piso tarjeta o en la barra izquierda)
 ![Image app2](https://github.com/julioortizpol/ManejoDeImpresoras/blob/master/gitappimage/imgaplicacion2%20(2).png)
 
 
