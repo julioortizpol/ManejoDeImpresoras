@@ -1,20 +1,20 @@
-# ManejoDeImpresoras
-### Proyecto DESKTOP de GUI para TI de CDEEE para facilitar el manejo de las impresoras en el área
+# Printer Management
+### DESKTOP project for CDEEE IT to facilitate IP access of printers in the company
 
-El proyecto surgio de la necesidad en el departamento de Mesa de ayuda de la CDEEE(del cual era mienbro al momento de hacer esta app), 
-de poder verificar las impresoras sin tener que escribir los ip, para asi poder brindar un mejor servicio a los usuarios.
+The project arose from the need in the help desk department of the CDEEE (of which I was a member at the time of making this app), to be able to verify the printers without having to write the ip, in order to provide a better service to the users.
 
-Esta seria oficialmente mi primer "aplicacion WEB", con esta adquiri los conocimientos de manejar el DOM, trabajar con CSS, Nodejs, Hacer Deploy a una aplicacionWEB, trabajar con SASS y algunos otros conceptos de FRONT-END que quizas estoy olvidando mencionar.
+This would be officially my first "WEB application", with this I acquired the knowledge of managing the DOM, working with CSS, Nodejs, Deploy a WEB application, working with SASS and some other FRONT-END concepts.
 
-Framework de diseño usado:
+
+Design framework used:
 https://material.io/develop/web/
 
-## Imagenes de la aplicacion:
+## Some images of the application:
 
-### Primera pantalla(Menu principal)
+### First screen (Main menu)
 ![Image app1](https://github.com/julioortizpol/ManejoDeImpresoras/blob/master/gitappimage/imgaplicacion.PNG)
 
-### Menu de primer piso(Accesible al hacer clcik en el menu principal donde dice primer piso tarjeta o en la barra izquierda)
+### First floor menu (Accessible by clicking on the main menu where it says first floor card or on the left bar)
 ![Image app2](https://github.com/julioortizpol/ManejoDeImpresoras/blob/master/gitappimage/imgaplicacion2%20(2).png)
 
 
